@@ -20,12 +20,12 @@ const Scoreboard = ({ player1Score, player2Score, onReset }) => {
       </div>
       
       <div className="mt-6 text-center">
-        <button 
+        <div 
           onClick={onReset}
-          className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded transition-colors"
+          className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded transition-colors cursor-pointer arcade-button"
         >
           New Game
-        </button>
+        </div>
       </div>
     </div>
   );

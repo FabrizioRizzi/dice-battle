@@ -11,42 +11,42 @@ A guided checklist for building a **Dice Battle** app with Copilot Agent mode.
 
 ### 1️⃣ **Project Setup**
 
-- [ ] 💻 “Set up a new React 19 project using Vite and TailwindCSS 4.1.”
-- [ ] ⚙️ “Install and configure TailwindCSS in the project, ensuring it works with Vite.”
+- [x] 💻 “Set up a new React 19 project using Vite and TailwindCSS 4.1.”
+- [x] ⚙️ “Install and configure TailwindCSS in the project, ensuring it works with Vite.”
 
 ---
 
 ### 2️⃣ **App Structure**
 
-- [ ] 📂 “Create the following files in the project: `App.jsx`, `components/DiceRoller.jsx`, `components/Scoreboard.jsx`, and `styles/index.css`.”
-- [ ] 🧩 “Set up the basic app structure in `App.jsx` and import components like `DiceRoller` and `Scoreboard`.”
+- [x] 📂 “Create the following files in the project: `App.jsx`, `components/DiceRoller.jsx`, `components/Scoreboard.jsx`, and `styles/index.css`.”
+- [x] 🧩 “Set up the basic app structure in `App.jsx` and import components like `DiceRoller` and `Scoreboard`.”
 
 ---
 
 ### 3️⃣ **Dice Roller Logic**
 
-- [ ] 🎲 “In `DiceRoller.jsx`, implement the dice roll logic using `Math.random()` to generate random numbers between 1 and 6 for both players.”
-- [ ] 🔁 “Create a button called ‘Roll Dice’ that triggers the dice roll and updates the dice value for each player.”
+- [x] 🎲 “In `DiceRoller.jsx`, implement the dice roll logic using `Math.random()` to generate random numbers between 1 and 6 for both players.”
+- [x] 🔁 “Create a button called ‘Roll Dice’ that triggers the dice roll and updates the dice value for each player.”
 
 ---
 
 ### 4️⃣ **Winner Determination**
 
-- [ ] 🏆 “Create a function to compare the dice values and determine which player has the higher roll. Display the winner’s name under the dice rolls.”
-- [ ] 💬 “Display the winner message like 'Player 1 wins!' or 'Player 2 wins!' dynamically after each roll.”
+- [x] 🏆 “Create a function to compare the dice values and determine which player has the higher roll. Display the winner’s name under the dice rolls.”
+- [x] 💬 “Display the winner message like 'Player 1 wins!' or 'Player 2 wins!' dynamically after each roll.”
 
 ---
 
 ### 5️⃣ **Scoreboard**
 
-- [ ] 📝 “In `Scoreboard.jsx`, create a component that tracks and displays the score for each player.”
-- [ ] 🔢 “Update the score each time a player wins a round and display it on the scoreboard.”
+- [x] 📝 “In `Scoreboard.jsx`, create a component that tracks and displays the score for each player.”
+- [x] 🔢 “Update the score each time a player wins a round and display it on the scoreboard.”
 
 ---
 
 ### 6️⃣ **Arcade Style UI**
 
-- [ ] 🎨 “Design the UI to look fun and arcade-style. Use TailwindCSS for bright colors, large buttons, and dice displays.”
+- [x] 🎨 “Design the UI to look fun and arcade-style. Use TailwindCSS for bright colors, large buttons, and dice displays.”
 - [ ] 🎲 “Add dice animations when they are rolled. For example, use `framer-motion` to animate the dice bouncing or rotating.”
 
 ---
